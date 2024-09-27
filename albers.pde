@@ -1,0 +1,17 @@
+size(500,500);
+float r1 = random(255);
+float r2 = random(255);
+float r3 = random(255);
+float r4 = random(255);
+PImage photo;
+photo = loadImage("grass.jpg");
+image(photo,0,0);
+rectMode(CENTER);
+fill(r1,r2,r3,50);
+rect(width/2,height/2,width,height);
+fill(r2,r3,r4,50);
+rect(width/2,height/1.7857142857,width/1.4285714286,height/1.4285714286);
+fill(r3,r4,r1,50);
+rect(width/2,height/1.6666666667,width/2.1739130435,height/2.1739130435);
+fill(r4,r1,r2,50);
+rect(width/2,height/1.5625,width/3.8461538462,height/3.8461538462);

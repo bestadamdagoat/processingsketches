@@ -1,0 +1,94 @@
+size(1000,1000);
+
+int x = 250;
+int liney = 130;
+int arcx = 166;
+int ellipsex = 250;
+float ellipsey2 = liney/4;
+int y = liney-5;
+int y2 = liney+5;
+int arcy = arcx/2;
+int linex = x+arcx/2;
+int linex2 = x-arcx/2;
+int ellipsey = y2+(arcy/2);
+
+ellipse(x,ellipsey,ellipsex,ellipsey2);
+fill(#d98a00);
+noStroke();
+arc(x,y,arcx,arcy,-PI,0);
+arc(x,y2,arcx,arcy,0,PI);
+stroke(#583901);
+strokeWeight(20);
+line(linex,liney,linex2,liney);
+
+x = 700;
+liney = 600;
+arcx = 300;
+ellipsex = 400;
+ellipsey2 = float(liney)*(0.23);
+y = liney-5;
+y2 = liney+5;
+arcy = arcx/2;
+linex = x+arcx/2;
+linex2 = x-arcx/2;
+ellipsey = y2+(arcy/2);
+
+stroke(0);
+strokeWeight(4);
+fill(255);
+ellipse(x,ellipsey,ellipsex,ellipsey2);
+fill(#d98a00);
+noStroke();
+arc(x,y,arcx,arcy,-PI,0);
+arc(x,y2,arcx,arcy,0,PI);
+stroke(#583901);
+strokeWeight(20);
+line(linex,liney,linex2,liney);
+
+x = 300;
+liney = 400;
+arcx = 200;
+ellipsex = 300;
+ellipsey2 = float(liney)*(0.23);
+y = liney-5;
+y2 = liney+5;
+arcy = arcx/2;
+linex = x+arcx/2;
+linex2 = x-arcx/2;
+ellipsey = y2+(arcy/2);
+
+stroke(0);
+strokeWeight(4);
+fill(255);
+ellipse(x,ellipsey,ellipsex,ellipsey2);
+fill(#d98a00);
+noStroke();
+arc(x,y,arcx,arcy,-PI,0);
+arc(x,y2,arcx,arcy,0,PI);
+stroke(#583901);
+strokeWeight(20);
+line(linex,liney,linex2,liney);
+
+x = 700;
+liney = 200;
+arcx = 150;
+ellipsex = 200;
+ellipsey2 = float(liney)*(0.23);
+y = liney-5;
+y2 = liney+5;
+arcy = arcx/2;
+linex = x+arcx/2;
+linex2 = x-arcx/2;
+ellipsey = y2+(arcy/2);
+
+stroke(0);
+strokeWeight(4);
+fill(255);
+ellipse(x,ellipsey,ellipsex,ellipsey2);
+fill(#d98a00);
+noStroke();
+arc(x,y,arcx,arcy,-PI,0);
+arc(x,y2,arcx,arcy,0,PI);
+stroke(#583901);
+strokeWeight(20);
+line(linex,liney,linex2,liney);

@@ -1,0 +1,15 @@
+size(648,400);
+surface.setResizable(true);
+noFill();
+square(0,0,height);
+square(height,0,width-height);
+square((((width-height)/1.62)/1.62)+height,height/1.62,(width-height)/1.62);
+square(height,((((height/1.62)-height)/1.62))+height,((((height/1.62)/1.62)/1.62)));
+square(height,height/1.62,(((height/1.62)/1.62)/1.62)/1.62);
+square(height+((((height/1.62)/1.62)/1.62)/1.62),height/1.62,((((height/1.62)/1.62)/1.62)/1.62)/1.62);
+arc(height,height,height*2,height*2,PI,PI+HALF_PI);
+arc(height,height/1.62,height*1.235,height*1.235,3*PI/2,TWO_PI);
+arc((((width-height)/1.62)/1.62)+height,height/1.62,height/1.32,height/1.32,0,HALF_PI);
+arc((((width-height)/1.62)/1.62)+height,((((height/1.62)-height)/1.62))+height,height/2.15,height/2.15,PI/2,PI);
+arc(height+((((height/1.62)/1.62)/1.62)/1.62),((((height/1.62)-height)/1.62))+height,height/3.45,height/3.45,PI,3*PI/2);
+arc(height+((((height/1.62)/1.62)/1.62)/1.62),(height/1.62)+(((((height/1.62)/1.62)/1.62)/1.62)/1.62),height/5.5,height/5.5,3*PI/2,TWO_PI);

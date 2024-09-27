@@ -1,0 +1,22 @@
+//env
+background(0,0,255);
+size(800,500,P3D);
+stroke(183,28,28);
+strokeWeight(16);
+//a
+line(25,400,125,100);
+line(225,400,125,100);
+line(175,250,75,250);
+//y
+line(350,400,350,250);
+line(350,250,425,100);
+line(350,250,275,100);
+//o
+noFill();
+circle(625,250,300);
+//extra
+translate(615,250);
+strokeWeight(4);
+box(120);
+//end
+save("Lab 00 - Adam Ostrinsky.jpg");
